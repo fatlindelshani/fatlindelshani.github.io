@@ -19,6 +19,7 @@ Ka kaluar kohë qysh se u ngazëlleva me faktin se po mbaja diplomën e studimev
 Më poshtë po vendos një copëz code që na mundëson ndryshimin e posteve në faqen bazë:
 
 {% highlight php %}
+<?php
 // Show posts of 'post', 'page' and 'movie' post types on home page
 add_action( 'pre_get_posts', 'add_my_post_types_to_query' );
 
